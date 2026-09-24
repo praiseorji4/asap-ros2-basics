@@ -1,0 +1,8 @@
+# ValidateReading.srv - is this robot temperature within its safe limit?
+# Copy to: ~/ros2_ws/src/asap_interfaces/srv/ValidateReading.srv
+# Request above ---, response below (compare: ros2 interface show turtlesim/srv/Spawn).
+#
+# TODO(6.1a): request:   temperature (float64, degrees C)
+#             response:  valid (bool), reason (string, empty when valid)
+
+---

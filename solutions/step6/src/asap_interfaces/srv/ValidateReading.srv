@@ -1,0 +1,7 @@
+# ValidateReading.srv - is this robot temperature within its safe limit?
+# Request: the reading to check
+float64 temperature   # degrees Celsius
+---
+# Response: the verdict
+bool valid
+string reason         # empty when valid, otherwise why not
